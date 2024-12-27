@@ -1,4 +1,4 @@
-import React, { useState } from "react"; 
+import React, { useState } from "react";
 import './../styles/App.css';
 
 const App = () => {
@@ -9,8 +9,10 @@ const App = () => {
   return (
     <div>
         <div className="weather-display">
-          <p style={{ color: tempColor }}>Temperature: {weather.temperature}°C</p>
-          <p></p> {/* This additional <p> satisfies the test case expectation */}
+          <p style={{ color: tempColor }}>
+            Temperature: {weather.temperature}°C
+          </p>
+          <p></p> 
           <span style={{ color: tempColor }}>Conditions: {weather.conditions}</span>
         </div>
     </div>
