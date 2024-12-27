@@ -12,6 +12,7 @@ const App = () => {
       conditions: "Sunny"  
     }));
   }, []); 
+
   return (
     <div>
       <div className="weather-display">
