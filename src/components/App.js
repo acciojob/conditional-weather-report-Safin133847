@@ -10,7 +10,7 @@ const App = () => {
     <div>
         <div className="weather-display">
           <p style={{ color: tempColor }}>
-            Temperature: {weather.temperature}°C
+            Temperature: {weather.temperature}
           </p>
           <p></p> 
           <span style={{ color: tempColor }}>Conditions: {weather.conditions}</span>
